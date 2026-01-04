@@ -4,7 +4,7 @@ metadata:
   name: grade-submission-api
   namespace: grade-demo
 spec:
-  type: LoadBalancer
+  type: ClusterIP
   selector:
     app: grade-submission
   ports:
